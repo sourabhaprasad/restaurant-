@@ -1,0 +1,46 @@
+.menus{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    margin: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .menu{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .menu:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-image {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu-details {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu{
+    background-color: #934b00;
+  }
+  
+  
+  .menu button{
+    background-color: #452103;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
